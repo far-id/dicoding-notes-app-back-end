@@ -17,8 +17,6 @@ const addNoteHandler = (request, h) => {
       message: 'Catatan berhasil ditambahkan',
       data: {
         noteId: id,
-        newNote,
-        notes
       },
     });
     response.code(201);
