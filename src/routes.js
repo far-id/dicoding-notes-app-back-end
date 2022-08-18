@@ -1,4 +1,10 @@
-import { addNoteHandler, getAllNotesHandler, getNoteByIdHandlred, editNoteByIdHandler, deleteNoteByIdHandler } from './handler.js'
+import {
+  addNoteHandler,
+  getAllNotesHandler,
+  getNoteByIdHandlred,
+  editNoteByIdHandler,
+  deleteNoteByIdHandler,
+} from './handler.js';
 
 const routes = [
   {

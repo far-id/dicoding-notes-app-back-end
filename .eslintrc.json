@@ -21,6 +21,11 @@
             "error",
             "windows"
         ],
-        "skipBlankLines": true
+        "no-multiple-empty-lines": "off",
+        "import/extensions": [
+            0,
+            { "js": "always"
+            }
+        ]
     }
 }
